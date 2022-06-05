@@ -6,6 +6,7 @@ import com.example.webserviceproject.DTO.SignUpDto;
 import com.example.webserviceproject.Models.Customer;
 import com.example.webserviceproject.Repositories.CustomerRepository;
 import com.example.webserviceproject.Services.CustomerService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.rest.webmvc.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -20,6 +21,7 @@ import java.util.Optional;
 @Transactional
 public class CustomerServiceImpl implements CustomerService {
 
+    @Autowired
     private CustomerRepository customerRepository;
 
     public CustomerServiceImpl(CustomerRepository customerRepository) {
