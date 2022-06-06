@@ -6,6 +6,10 @@ import com.example.webserviceproject.Models.Stock;
 
 import javax.validation.constraints.NotNull;
 
+/**
+ * An interface that has methods for Customer related things.
+ * This interface should be implemented in CustomerServiceImpl
+ */
 public interface CustomerService {
 
     Customer save(Customer product);

@@ -2,6 +2,10 @@ package com.example.webserviceproject.DTO;
 
 import com.example.webserviceproject.Models.Product;
 
+/***
+ * DTO class for Product2Order
+ * This is  the best practice and makes it more secure to access and add to the repo
+ */
 public class ProductOrderDto {
 
     private Product product;

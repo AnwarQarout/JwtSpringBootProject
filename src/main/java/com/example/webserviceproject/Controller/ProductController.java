@@ -12,6 +12,7 @@ public class ProductController {
     @Autowired
     ProductServiceImpl productServiceImpl;
 
+    /*  Return all products in the system */
     @GetMapping("/products/findAll")
     public Iterable<Product> getAllProducts() {
         return productServiceImpl.getAllProducts();

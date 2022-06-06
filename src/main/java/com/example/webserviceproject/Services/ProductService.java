@@ -7,6 +7,11 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 
 
+/**
+ * An interface that has methods for Product related things.
+ * This interface should be implemented in ProductServiceImpl
+ */
+
 @Validated
 public interface ProductService {
 

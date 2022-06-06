@@ -14,6 +14,7 @@ public class StockController {
     @Autowired
     StockServiceImpl stockServiceImpl;
 
+    /* Return all stocks in the system */
     @GetMapping("/stocks")
     public Iterable<Stock> getStock() {
         return stockServiceImpl.getAllStocks();

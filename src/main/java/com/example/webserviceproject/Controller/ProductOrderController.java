@@ -12,9 +12,10 @@ public class ProductOrderController {
     @Autowired
     OrderServiceImpl orderServiceImpl;
 
+    /*Create an order */
     @RequestMapping(method = RequestMethod.POST, consumes = MediaType.ALL_VALUE,path = "/orders/create")
    // @PostMapping("/orders/create")
-    public Order createOrder(@RequestBody(required = false) Order order) {
+    public Order createOrder(@RequestBody Order order) {
         return orderServiceImpl.create(order);
     }
 }

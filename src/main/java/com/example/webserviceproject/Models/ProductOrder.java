@@ -9,6 +9,9 @@ import javax.validation.Valid;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * A model entity for Product2Order. Uses ProductOrderPK because it needs a composite key, since its a many to many table.
+ */
 @Embeddable
 @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "order")
 @Entity
