@@ -7,6 +7,10 @@ import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 
 
+/**
+ * An interface that has methods for Order related things.
+ * This interface should be implemented in OrderServiceImpl
+ */
 @Validated
 public interface OrderService {
 

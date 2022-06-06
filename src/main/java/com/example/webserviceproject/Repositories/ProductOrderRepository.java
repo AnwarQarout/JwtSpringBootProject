@@ -6,6 +6,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
+/**
+ * Repository class for Product2Order Model
+ */
 @Repository
 public interface ProductOrderRepository extends JpaRepository<ProductOrder, ProductOrderPK> {
 }

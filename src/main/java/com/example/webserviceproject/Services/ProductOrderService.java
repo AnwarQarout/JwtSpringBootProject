@@ -7,6 +7,11 @@ import org.springframework.validation.annotation.Validated;
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 
+/**
+ * An interface that has methods for ProductOrder related things.
+ * This interface should be implemented in ProductOrderServiceImpl
+ */
+
 @Validated
 public interface ProductOrderService {
 

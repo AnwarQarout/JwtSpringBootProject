@@ -9,7 +9,9 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.time.LocalDate;
-
+/**
+ * Repository class for Order Model
+ */
 @Repository
 public interface OrderRepository extends JpaRepository<Order, Long> {
     //This is example for custom query using JPQL and @Query annotation

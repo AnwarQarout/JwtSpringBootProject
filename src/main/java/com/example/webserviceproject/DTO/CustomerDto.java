@@ -6,6 +6,10 @@ import lombok.Data;
 import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 
+/***
+ * DTO class for Customer
+ * This is  the best practice and makes it more secure to access and add to the repo
+ */
 @Data
 
 public class CustomerDto {

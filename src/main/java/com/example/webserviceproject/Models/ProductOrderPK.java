@@ -9,6 +9,9 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import java.io.Serializable;
 
+/**
+ * An important model for creating a composite key for Product2Order
+ */
 @Embeddable
 @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "order")
 public class ProductOrderPK implements Serializable {

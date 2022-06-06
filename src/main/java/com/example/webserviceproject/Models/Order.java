@@ -11,7 +11,9 @@ import javax.validation.Valid;
 import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Set;
-
+/**
+ * A model entity for Orders
+ */
 @Entity
 @Table(name = "orders")
 @Data

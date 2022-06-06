@@ -16,9 +16,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.Optional;
-
+/**
+ * This is the Service class for Customers which implements the CustomerService interface and overrides the methods there.
+ */
 @Service
 @Transactional
+
 public class CustomerServiceImpl implements CustomerService {
 
     @Autowired

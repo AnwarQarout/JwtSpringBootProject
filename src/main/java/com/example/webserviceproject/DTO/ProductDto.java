@@ -2,6 +2,10 @@ package com.example.webserviceproject.DTO;
 
 import javax.validation.constraints.NotNull;
 
+/***
+ * DTO class for Product
+ * This is  the best practice and makes it more secure to access and add to the repo
+ */
 public class ProductDto {
 
     private Long ID;

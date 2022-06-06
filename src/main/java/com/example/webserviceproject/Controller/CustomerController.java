@@ -15,12 +15,14 @@ public class CustomerController {
     @Autowired
     CustomerServiceImpl customerServiceImpl;
 
+    /* Sign up */
     @PostMapping("/signUp")
     public void signUp(@RequestBody SignUpDto signUpDto) {
         customerServiceImpl.signUp(signUpDto);
 
     }
 
+    /* Sign in */
     @GetMapping("/signIn")
     public ResponseEntity<String> signIn(@RequestBody SignInDto signInDto) {
         return customerServiceImpl.singin(signInDto);

@@ -12,6 +12,9 @@ import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * A model entity for Customer
+ */
 @Entity
 @Table(name = "customers")
 @Data

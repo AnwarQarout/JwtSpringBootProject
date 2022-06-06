@@ -9,6 +9,11 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Optional;
 
+/**
+ * This is the Service class for Stocks which implements the StockService interface and overrides the methods there.
+ */
+
+
 @Service
 @Transactional
 public class StockServiceImpl implements StockService {

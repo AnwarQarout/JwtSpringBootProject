@@ -9,6 +9,10 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Optional;
 
+/**
+ * This is the Service class for Products which implements the ProductService interface and overrides the methods there.
+ */
+
 @Service
 @Transactional
 public class ProductServiceImpl implements ProductService {

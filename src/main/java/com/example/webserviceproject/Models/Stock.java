@@ -7,6 +7,10 @@ import lombok.Data;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+
+/**
+ * A simple model for Stocks
+ */
 @Data
 @Table
 @Entity

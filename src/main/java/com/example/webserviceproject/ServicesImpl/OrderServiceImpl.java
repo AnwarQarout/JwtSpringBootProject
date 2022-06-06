@@ -9,6 +9,10 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 
+/**
+ * This is the Service class for Orders which implements the OrderService interface and overrides the methods there.
+ */
+
 @Service
 @Transactional
 public class OrderServiceImpl implements OrderService {

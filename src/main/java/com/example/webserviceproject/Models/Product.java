@@ -11,6 +11,9 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * A model entity for Products
+ */
 @Entity
 @Table(name = "products")
 @Data
